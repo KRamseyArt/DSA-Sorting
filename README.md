@@ -8,7 +8,7 @@ Given the following List of numbers: [21, 1, 26, 45, 29, 28, 2, 9, 16, 49, 39, 2
   3. Recursive #2: Left = [21, 1]
   4. Recursive #3: Left = [21], Right = [1]
 - What is the resulting list that will be sorted after 16 recursive calls to mergesort?
-  5. Recursive #4: mergeSort([21]) => [21]
+  1. Recursive #4: mergeSort([21]) => [21]
   6. Recursive #5: mergeSort([1]) => [1]
   7. Recursive #6: mergeSort([21, 1]) => merge([21], [1], [21, 1])
   8. Recursive #7: merge returns [1, 21], mergeSort([21, 1]) returns [1, 21]
